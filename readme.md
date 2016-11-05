@@ -15,7 +15,7 @@ Automatically generate `.ycm_extra_conf.py` for your pebble project!
 cd your-pebble-project
 wget https://github.com/petronny/YCM-Generator-pebble/raw/master/gen_ycm_extra_conf.sh
 ```
-- Set up the path of `arm-none-eabi-gcc` in `gen_ycm_extra_conf.sh`
+- Set up the path of `arm-none-eabi-gcc` in `gen_ycm_extra_conf.sh` if it is not in `$PATH`
 ```
 export CC=/path/to/arm-none-eabi-gcc
 ```
